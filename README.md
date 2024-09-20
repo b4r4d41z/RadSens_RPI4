@@ -43,5 +43,4 @@ Once the wiring and configuration are complete, run the following command to sta
    python3 Rad_sense_plotter.py
    ```
 Here is a GIF of the script in action:
-
 ![Radiation Data Plot](rad_data.gif)
