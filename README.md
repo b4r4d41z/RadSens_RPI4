@@ -3,6 +3,10 @@
 ## 1. Project Description
 This project demonstrates how to interface the RadSense radiation sensor with a Raspberry Pi 4 using I2C communication. The Python script `Rad_sense_plotter.py` reads radiation data from the sensor and plots it in real-time. The setup runs on a Raspberry Pi 4 with proper wiring to specific GPIO pins.
 
+The following GIF shows the script running in real time:
+
+![Radiation Data Plot](rad_data.gif)
+
 ## 2. Wiring the Sensor to Raspberry Pi 4
 To correctly wire the RadSense sensor to the Raspberry Pi 4, refer to the following table:
 
@@ -42,6 +46,3 @@ Once the wiring and configuration are complete, run the following command to sta
    ```bash
    python3 Rad_sense_plotter.py
    ```
-
-![Radiation Data Plot](rad_data.gif)
-Here is a GIF of the script in action
